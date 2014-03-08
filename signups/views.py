@@ -1,7 +1,7 @@
 from django.shortcuts import render,render_to_response,RequestContext,HttpResponseRedirect
 from .forms import SignUpForm
 from django.contrib import messages
-
+#
 
 def home(request):
     form = SignUpForm(request.POST or None)
